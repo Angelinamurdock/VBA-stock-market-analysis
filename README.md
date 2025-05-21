@@ -1,1 +1,57 @@
-For the VBA Challenge, I used a previous class activity to help create the initial code. This included finding and printing each unique ticker, as well as calculating the total stock volume. I used Xpert learning assistant and chatGPT to help figure out how to find the first and last occurrences of the ticker to pull the correct open and close numbers in order to calculate the quarterly change and percent change. I tried only to take code I looked up if I was able to understand it fully. I wanted it to work with the code I had already written and not change the way the whole code was written. I used a previous class activity to help me create the conditional formatting code. I googled how to apply this code to all the sheets simultaneously. I added the code I found for this. When this didn't run correctly, I put my code into Xpert Learning Assistant to debug and this told me that I needed to add “ws.”  in front of all of the cells and range functions. I googled how to find the maximum value in a column of numbers and used the “Max” function that I found to find the  “Greatest % Increase” as well as Greatest Volume.. I used the same code with minimum instead to find the “Greatest % Decrease”.  After this I used Xpert learning assistant and ChatGPT to figure out the code to find and print the corresponding tickers to these values. I have read through all of the code and I feel that I do understand how each part of the code works. 
+# VBA Stock Market Analysis
+**Creator**: Angelina Murdock  
+**Date**: January 2025
+
+## Overview
+This project uses **VBA scripting in Excel** to automate the analysis of stock market data across multiple worksheets, each representing a different financial quarter. The script processes large datasets of daily trading activity, calculating key performance metrics for each stock ticker and identifying top market performers.
+
+## Table of contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Resources](#resources)
+
+## Features
+- **Loop Through All Worksheets**
+
+    Automatically processes stock data across all quarterly worksheets in a workbook
+
+- **Quarterly Stock Analysis**
+
+    For each stock ticker:
+    - Calculates the change in price over the quarter
+    - Calculates percentage change
+    - Sums the total stock volume
+
+- **Top Performer Summary**
+    - Greatest % increase
+    - Greatest % decrease
+    - Greatest total volume
+
+- **Formatted Output Example**
+    For each worksheet (quarter), the script outputs:
+    ![Q1 Report](Images/Q1_output.png)
+
+## Installation
+### Requirements
+- Microsoft Excel (2016 or later recommended)
+- Macros enabled
+
+### Set up
+1. Clone or download the repository from GitHub:
+    ``` bash
+    git clone https://github.com/Angelinamurdock/VBA-challenge.git 
+    ```
+2. Open the Excel workbook named `Multiple_year_stock_data_final.xlsm` from the cloned/downloaded folder.
+3. Enable macros if prompted.
+4. To view or edit the script:
+- Open the VBA Editor
+- The analysis script will be located under Modules
+5. Run the macro from Excel:
+- Go to the Developer tab
+- Click Macros, select the macro and click Run
+
+
+## Resources
+- **DU Bootcamp Module 2:** Used challenge files and class materials from the bootcamp.
+- **ChatGPT:** Assisted with code explanations and debugging.
