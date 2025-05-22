@@ -29,6 +29,7 @@ This project uses **VBA scripting in Excel** to automate the analysis of stock m
     - Greatest total volume
 
 - **Formatted Output Example**
+
     For each worksheet (quarter), the script outputs:
     ![Q1 Report](Images/Q1_output.png)
 
